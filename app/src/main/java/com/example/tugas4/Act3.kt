@@ -59,7 +59,13 @@ fun KartuProfil(
             verticalAlignment = Alignment.CenterVertically
         ) {
             LogoUmy()
-           
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.jarak_konten)),
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
         }
     }
 }
