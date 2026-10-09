@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Tugas4</string>
+    <string name="app_name">tugas4</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+    <string name="desc_logo">Logo Universitas Muhammadiyah Yogyakarta</string>
+
+    <string name="nama_1">Slamet CRF</string>
+    <string name="telp_1">111111111111</string>
+    <string name="alamat_1">UK, Urang Kuningan</string>
+
+    <string name="nama_2">Anton WWE</string>
+    <string name="telp_2">2222222222222</string>
+    <string name="alamat_2">Lombok, NTB</string>
+
+    <string name="nama_3">Oedin Coffe</string>
+    <string name="telp_3">333333333333</string>
+    <string name="alamat_3">Basung, Lambar</string>
+
+    <string name="nama_4">Edi Mangku</string>
+    <string name="telp_4">444444444444</string>
+    <string name="alamat_4">United, Madiun</string>
 </resources>
