@@ -177,7 +177,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 warnaAlamat = R.color.teks_alamat_putih
             )
 
+            Spacer(modifier = Modifier.weight(1f))
 
+            Text(
+                text = stringResource(R.string.copy),
+                fontSize = spResource(R.dimen.font_footer),
+                fontFamily = FontFamily.Serif,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_footer))
+            )
         }
     }
 }
