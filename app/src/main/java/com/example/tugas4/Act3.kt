@@ -108,4 +108,15 @@ private fun LogoUmy() {
     )
 }
 
+@Composable
+fun ActivitasPertama(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(top = dimensionResource(R.dimen.padding_atas_layar))
+    ) {
 
+
+
+    }
+}
