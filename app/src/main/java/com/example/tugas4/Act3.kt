@@ -132,13 +132,19 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 .padding(horizontal = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                text = stringResource(R.string.prodi),
+                fontSize = spResource(R.dimen.font_prodi),
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Serif,
+                textAlign = TextAlign.Center
+            )
 
 
 
 
 
 
-            
         }
     }
 }
