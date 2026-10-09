@@ -139,6 +139,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 fontFamily = FontFamily.Serif,
                 textAlign = TextAlign.Center
             )
+            Text(
+                text = stringResource(R.string.univ),
+                fontSize = spResource(R.dimen.font_univ),
+                fontFamily = FontFamily.Serif,
+                textAlign = TextAlign.Center
+            )
 
 
 
