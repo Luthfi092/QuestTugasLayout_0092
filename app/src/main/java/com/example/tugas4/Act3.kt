@@ -92,10 +92,20 @@ fun KartuProfil(
                     textAlign = TextAlign.Center
                 )
             }
-
+            LogoUmy()
         }
     }
 }
 
+@Composable
+private fun LogoUmy() {
+    Image(
+        painter = painterResource(R.drawable.logo_umy),
+        contentDescription = stringResource(R.string.desc_logo),
+        modifier = Modifier
+            .size(dimensionResource(R.dimen.ukuran_logo))
+            .padding(dimensionResource(R.dimen.padding_logo))
+    )
+}
 
 
