@@ -58,8 +58,8 @@ fun KartuProfil(
             modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically
         ) {
-
-
+            LogoUmy()
+           
         }
     }
 }
