@@ -73,8 +73,17 @@ fun KartuProfil(
                     color = colorResource(R.color.teks_nama),
                     textAlign = TextAlign.Center
                 )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        fontSize = spResource(R.dimen.font_detail),
+                        fontFamily = FontFamily.Serif,
+                        color = colorResource(R.color.teks_telp),
+                        modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks)),
+                        textAlign = TextAlign.Center
+                    )
+                }
 
-                
             }
 
         }
