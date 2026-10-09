@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_atas_layar">100dp</dimen>
+    <dimen name="jarak_judul">25dp</dimen>
+    <dimen name="padding_kartu">12dp</dimen>
+    <dimen name="radius_kartu">16dp</dimen>
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="padding_logo">5dp</dimen>
+    <dimen name="jarak_konten">12dp</dimen>
+    <dimen name="padding_footer">50dp</dimen>
+    <dimen name="jarak_teks">4dp</dimen>
+
+    <dimen name="font_prodi">35sp</dimen>
+    <dimen name="font_univ">22sp</dimen>
+    <dimen name="font_nama">24sp</dimen>
+    <dimen name="font_nama_cursive">30sp</dimen>
+    <dimen name="font_detail">16sp</dimen>
+    <dimen name="font_footer">14sp</dimen>
+</resources>
