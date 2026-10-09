@@ -64,7 +64,18 @@ fun KartuProfil(
                     .weight(1f)
                     .padding(horizontal = dimensionResource(R.dimen.jarak_konten)),
                 horizontalAlignment = Alignment.CenterHorizontally
-            )
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = spResource(ukuranNama),
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(R.color.teks_nama),
+                    textAlign = TextAlign.Center
+                )
+
+                
+            }
 
         }
     }
