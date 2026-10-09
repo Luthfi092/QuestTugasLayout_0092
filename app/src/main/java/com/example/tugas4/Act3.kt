@@ -115,7 +115,16 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .padding(top = dimensionResource(R.dimen.padding_atas_layar))
     ) {
-
+        // Large background logo UMY
+        Image(
+            painter = painterResource(R.drawable.logo_umy),
+            contentDescription = null,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp),
+            alignment = Alignment.Center,
+            alpha = 0.35f
+        )
 
 
     }
